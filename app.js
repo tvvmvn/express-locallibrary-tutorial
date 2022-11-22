@@ -13,8 +13,6 @@ var helmet = require('helmet');
 
 var app = express();
 
-console.log(process.argv)
-
 
 // Set up mongoose connection
 var mongoose = require('mongoose');
