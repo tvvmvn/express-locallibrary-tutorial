@@ -11,8 +11,8 @@ var catalogRouter = require('./routes/catalog');  //Import routes for "catalog" 
 var compression = require('compression');
 var helmet = require('helmet');
 
-require('dotenv').config()
-console.log(process.env) // remove this after you've confirmed it is working
+// require('dotenv').config()
+// console.log(process.env) // remove this after you've confirmed it is working
 
 var app = express();
 
